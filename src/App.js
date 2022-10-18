@@ -8,8 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Button prop='batch 32' study='web development'/>
-        {/* <Button prop='batch 33' study="data science"/>
-        <Button prop='batch 34' study="data science"/> */}
         <Button prop='AAAAAAAAH!' study="NOOOOOOO!"/>
         <Greeting firstName='Vinay' lastName='Rao'/>
         <Greeting firstName='Kingsley' lastName='RawMetal'/>
