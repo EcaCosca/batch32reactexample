@@ -12,6 +12,7 @@ function App() {
         <Button prop='batch 34' study="data science"/> */}
         <Button prop='AAAAAAAAH!' study="NOOOOOOO!"/>
         <Greeting firstName='Vinay' lastName='Rao'/>
+        <Greeting firstName='Kingsley' lastName='RawMetal'/>
       </header>
     </div>
   );
