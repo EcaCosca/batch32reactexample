@@ -2,9 +2,14 @@ import React, {useState} from 'react'
 
 const Counter = () => {
     const [count, setCount] = useState(0)
+    // const count = 0    The old way of writing a variable
 
-    const handleClick = () => {
+    const handleClickIncrease = () => {
         setCount(count+1)
+    }
+
+    const handleClickDecrease = () => {
+        setCount(count-1)
     }
 
 
@@ -12,7 +17,8 @@ const Counter = () => {
     <div>
         <h2>{count}</h2>
 
-        <button onClick={handleClick}>+</button>
+        <button onClick={handleClickIncrease}>+</button>
+        <button onClick={handleClickDecrease}>-</button>
     </div>
   )
 }
