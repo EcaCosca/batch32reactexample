@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({prop, study}) => {
+    // console.log('prop'+prop)
   return (
-    <div>
-        <h1>Hello Batch 32</h1>
-    </div>
+    <>
+        <h1>Hello {prop}</h1>
+        <p>Welcome to React</p>
+        <p>Good luck with {study}</p>
+    </>
   )
 }
 
